@@ -1,0 +1,242 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - gatsby > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > lodash
+    - gatsby-plugin-sharp > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby-plugin-sharp > lodash
+    - gatsby > @babel/traverse > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > @babel/traverse > lodash
+    - styled-components > @babel/traverse > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: styled-components > @babel/traverse > lodash
+    - gatsby > css-loader > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > css-loader > lodash
+    - gatsby > eslint > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > eslint > lodash
+    - gatsby > eslint-plugin-flowtype > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > eslint-plugin-flowtype > lodash
+    - gatsby > eslint-plugin-graphql > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > eslint-plugin-graphql > lodash
+    - gatsby > gatsby-telemetry > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > gatsby-telemetry > lodash
+    - gatsby > gatsby-cli > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > gatsby-cli > lodash
+    - gatsby > gatsby-plugin-page-creator > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > gatsby-plugin-page-creator > lodash
+    - gatsby-plugin-sharp > async > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby-plugin-sharp > async > lodash
+    - gatsby > webpack-merge > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > webpack-merge > lodash
+    - grommet > @testing-library/jest-dom > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: grommet > @testing-library/jest-dom > lodash
+    - styled-components > babel-plugin-styled-components > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: styled-components > babel-plugin-styled-components > lodash
+    - gatsby > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > @babel/traverse > @babel/generator > lodash
+    - styled-components > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: styled-components > @babel/traverse > @babel/generator > lodash
+    - gatsby > babel-eslint > @babel/traverse > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > babel-eslint > @babel/traverse > lodash
+    - gatsby > eslint > inquirer > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > eslint > inquirer > lodash
+    - gatsby > eslint > table > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > eslint > table > lodash
+    - gatsby > eslint-plugin-graphql > graphql-config > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > eslint-plugin-graphql > graphql-config > lodash
+    - gatsby > gatsby-cli > gatsby-telemetry > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > gatsby-cli > gatsby-telemetry > lodash
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > gatsby-plugin-page-creator > gatsby-page-utils > lodash
+    - gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin
+          > lodash
+    - gatsby > react-dev-utils > inquirer > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > react-dev-utils > inquirer > lodash
+    - gatsby > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > webpack-dev-server > http-proxy-middleware > lodash
+    - gatsby > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > @babel/traverse > @babel/helper-split-export-declaration >
+          @babel/types > lodash
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > babel-preset-gatsby > @babel/preset-env >
+          @babel/plugin-transform-block-scoping > lodash
+    - styled-components > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          styled-components > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - gatsby > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > babel-eslint > @babel/traverse > @babel/generator > lodash
+    - styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          styled-components > babel-plugin-styled-components >
+          @babel/helper-annotate-as-pure > @babel/types > lodash
+    - gatsby > gatsby-cli > yurnalist > inquirer > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > gatsby-cli > yurnalist > inquirer > lodash
+    - gatsby > eslint-plugin-graphql > graphql-config > graphql-import > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > eslint-plugin-graphql > graphql-config > graphql-import >
+          lodash
+    - gatsby > webpack-dev-server > portfinder > async > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > webpack-dev-server > portfinder > async > lodash
+    - gatsby > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > @babel/traverse > @babel/helper-function-name >
+          @babel/template > @babel/types > lodash
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > babel-preset-gatsby > @babel/preset-env >
+          @babel/plugin-transform-modules-umd > @babel/helper-module-transforms
+          > lodash
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > babel-eslint > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - styled-components > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          styled-components > @babel/traverse > @babel/helper-function-name >
+          @babel/template > @babel/types > lodash
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > @babel/core > @babel/helpers > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > babel-preset-gatsby > @babel/preset-env >
+          @babel/plugin-transform-unicode-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name
+          > @babel/template > @babel/types > lodash
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > @babel/core > @babel/helpers > @babel/traverse >
+          @babel/helper-function-name > @babel/helper-get-function-arity >
+          @babel/types > lodash
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > babel-preset-gatsby > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse > lodash
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > babel-preset-gatsby > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/generator > lodash
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > babel-preset-gatsby > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2023-06-24T14:58:48.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > babel-preset-gatsby > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-function-name > @babel/helper-get-function-arity >
+          @babel/types > lodash

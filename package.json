@@ -3,27 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gatsby": "^2.18.21",
+    "gatsby": "^5.0.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
-    "gatsby-plugin-manifest": "^2.2.37",
+    "gatsby-plugin-manifest": "^4.8.0",
     "gatsby-plugin-postcss": "^2.1.19",
     "gatsby-plugin-react-helmet": "^3.1.21",
-    "gatsby-plugin-sharp": "^2.3.13",
+    "gatsby-plugin-sharp": "^5.10.0",
     "gatsby-plugin-styled-components": "^3.1.18",
-    "gatsby-source-filesystem": "^2.1.46",
-    "gatsby-transformer-sharp": "^2.3.12",
-    "grommet": "^2.9.0",
+    "gatsby-source-filesystem": "^4.21.0",
+    "gatsby-transformer-sharp": "^4.8.0",
+    "grommet": "^2.17.4",
     "postcss-preset-env": "^6.7.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-headroom": "^3.0.0",
     "react-helmet": "^5.2.1",
     "react-syntax-highlighter": "^12.2.1",
-    "styled-components": "^4.4.1"
+    "styled-components": "^4.4.1",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,5 +42,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "snyk": true
 }
